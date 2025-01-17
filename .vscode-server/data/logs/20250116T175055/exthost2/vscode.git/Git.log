@@ -1,0 +1,101 @@
+2025-01-16 17:51:28.766 [info] [main] Log level: Info
+2025-01-16 17:51:28.767 [info] [main] Validating found git in: "git"
+2025-01-16 17:51:28.767 [info] [main] Using git "2.34.1" from "git"
+2025-01-16 17:51:28.767 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-16 17:51:28.767 [info] > git rev-parse --show-toplevel [121ms]
+2025-01-16 17:51:28.767 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-16 17:51:28.767 [info] > git rev-parse --show-toplevel [80ms]
+2025-01-16 17:51:28.767 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-16 17:51:28.773 [info] > git rev-parse --show-toplevel [8ms]
+2025-01-16 17:51:28.774 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-16 17:51:28.784 [info] > git rev-parse --show-toplevel [5ms]
+2025-01-16 17:51:28.784 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-16 17:51:28.800 [info] > git rev-parse --show-toplevel [8ms]
+2025-01-16 17:51:28.800 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-16 17:51:28.836 [info] > git rev-parse --show-toplevel [26ms]
+2025-01-16 17:51:28.862 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2025-01-16 17:51:28.917 [info] [Model][openRepository] Opened repository: /home/mu7s/devopsproject
+2025-01-16 17:51:28.988 [info] > git config --get commit.template [35ms]
+2025-01-16 17:51:29.004 [info] > git rev-parse --show-toplevel [33ms]
+2025-01-16 17:51:29.004 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-16 17:51:29.008 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-16 17:51:29.046 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-16 17:51:29.079 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [33ms]
+2025-01-16 17:51:29.081 [warning] [Git][getBranch] No such branch: master
+2025-01-16 17:51:29.110 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-01-16 17:51:29.117 [info] > git status -z -uall [29ms]
+2025-01-16 17:51:29.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2025-01-16 17:51:29.151 [warning] [Git][getBranch] No such branch: master
+2025-01-16 17:51:29.152 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-01-16 17:51:29.161 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-16 17:51:29.162 [info] > git config --get commit.template [13ms]
+2025-01-16 17:51:29.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-01-16 17:51:29.170 [warning] [Git][getBranch] No such branch: master
+2025-01-16 17:51:29.197 [info] > git status -z -uall [7ms]
+2025-01-16 17:51:29.202 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-01-16 17:52:32.881 [info] > git check-ignore -v -z --stdin [8ms]
+2025-01-16 17:52:36.932 [info] > git check-ignore -v -z --stdin [5ms]
+2025-01-16 17:52:39.274 [info] > git check-ignore -v -z --stdin [5ms]
+2025-01-16 17:53:27.504 [info] > git check-ignore -v -z --stdin [5ms]
+2025-01-16 17:55:59.002 [info] > git show --textconv :sharespace/project/static/main.js [22ms]
+2025-01-16 17:55:59.003 [info] > git ls-files --stage -- /home/mu7s/devopsproject/sharespace/project/static/main.js [18ms]
+2025-01-16 17:56:01.674 [info] > git ls-files --stage -- /home/mu7s/devopsproject/sharespace/project/static/style.css [8ms]
+2025-01-16 17:56:01.678 [info] > git show --textconv :sharespace/project/static/style.css [33ms]
+2025-01-16 17:56:02.818 [info] > git check-ignore -v -z --stdin [54ms]
+2025-01-16 17:56:03.726 [info] > git show --textconv :sharespace/project/templates/index.html [42ms]
+2025-01-16 17:56:03.734 [info] > git ls-files --stage -- /home/mu7s/devopsproject/sharespace/project/templates/index.html [12ms]
+2025-01-16 17:58:11.719 [info] > git show --textconv :sharespace/project/app.py [9ms]
+2025-01-16 17:58:11.723 [info] > git ls-files --stage -- /home/mu7s/devopsproject/sharespace/project/app.py [6ms]
+2025-01-16 17:58:36.912 [info] > git rev-parse --show-toplevel [16ms]
+2025-01-16 17:58:36.912 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-16 17:58:38.833 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mu7s/.vscode-server/extensions/.38373052-3b4e-450d-ba82-e38cbba80997/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/". Error:Error: ENOENT: no such file or directory, realpath '/home/mu7s/.vscode-server/extensions/.38373052-3b4e-450d-ba82-e38cbba80997/bundled/libs/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/'
+2025-01-16 17:59:26.177 [info] > git rev-parse --show-toplevel [8ms]
+2025-01-16 17:59:26.178 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-16 17:59:26.231 [info] > git rev-parse --show-toplevel [45ms]
+2025-01-16 17:59:26.231 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-16 18:02:41.817 [info] > git show --textconv :sharespace/project/app.py [37ms]
+2025-01-16 18:02:41.826 [info] > git ls-files --stage -- /home/mu7s/devopsproject/sharespace/project/app.py [29ms]
+2025-01-16 18:16:00.985 [info] > git ls-files --stage -- /home/mu7s/devopsproject/sharespace/project/models.py [5ms]
+2025-01-16 18:16:00.988 [info] > git show --textconv :sharespace/project/models.py [12ms]
+2025-01-16 18:16:21.005 [info] > git show --textconv :sharespace/project/app.py [7ms]
+2025-01-16 18:16:21.009 [info] > git ls-files --stage -- /home/mu7s/devopsproject/sharespace/project/app.py [7ms]
+2025-01-16 18:16:55.667 [info] > git show --textconv :sharespace/requirements.txt [6ms]
+2025-01-16 18:16:55.674 [info] > git ls-files --stage -- /home/mu7s/devopsproject/sharespace/requirements.txt [7ms]
+2025-01-16 18:22:33.874 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/mu7s/devopsproject/.git/HEAD'
+2025-01-16 18:22:33.885 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/mu7s/devopsproject/.git/config'
+2025-01-16 18:22:33.898 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/mu7s/devopsproject/.git/HEAD'
+2025-01-16 18:22:33.909 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/mu7s/devopsproject/.git/config'
+2025-01-16 18:31:04.059 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/mu7s/devopsproject/sharespace/project". Error:Error: ENOENT: no such file or directory, realpath '/home/mu7s/devopsproject/sharespace/project'
+2025-01-17 16:12:43.612 [info] > git rev-parse --show-toplevel [8ms]
+2025-01-17 16:12:43.627 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-01-17 16:12:43.677 [info] [Model][openRepository] Opened repository: /home/mu7s
+2025-01-17 16:12:43.701 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-17 16:12:43.702 [info] > git config --get commit.template [13ms]
+2025-01-17 16:12:43.711 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2025-01-17 16:12:43.712 [warning] [Git][getBranch] No such branch: master
+2025-01-17 16:12:43.755 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-01-17 16:12:43.995 [info] > git show --textconv :devopsproject/sharespace/project/app.py [9ms]
+2025-01-17 16:12:44.005 [info] > git ls-files --stage -- /home/mu7s/devopsproject/sharespace/project/app.py [11ms]
+2025-01-17 16:12:44.267 [info] > git check-ignore -v -z --stdin [9ms]
+2025-01-17 16:12:45.929 [info] > git status -z -uall [2204ms] (cancelled)
+2025-01-17 16:12:55.287 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1912ms]
+2025-01-17 16:12:55.288 [warning] [Git][getBranch] No such branch: master
+2025-01-17 16:12:55.289 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-01-17 16:12:55.419 [info] > git config --get commit.template [120ms]
+2025-01-17 16:12:55.454 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-17 16:12:55.463 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-01-17 16:12:55.465 [warning] [Git][getBranch] No such branch: master
+2025-01-17 16:12:55.555 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [55ms]
+2025-01-17 16:12:57.544 [info] > git status -z -uall [2052ms] (cancelled)
+2025-01-17 16:12:58.674 [info] > git ls-files --stage -- /home/mu7s/devopsproject/sharespace/project/app.py [6ms]
+2025-01-17 16:12:58.697 [info] > git show --textconv :devopsproject/sharespace/project/app.py [6ms]
+2025-01-17 16:15:57.896 [info] > git config --get commit.template [11ms]
+2025-01-17 16:15:57.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-01-17 16:15:57.898 [warning] [Git][getBranch] No such branch: master
+2025-01-17 16:15:57.923 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-01-17 16:15:59.798 [info] > git status -z -uall [1893ms] (cancelled)
+2025-01-17 16:17:48.450 [info] > git config --get commit.template [11ms]
+2025-01-17 16:17:48.452 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-01-17 16:17:48.453 [warning] [Git][getBranch] No such branch: master
+2025-01-17 16:17:48.471 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-01-17 16:17:50.260 [info] > git status -z -uall [1801ms] (cancelled)

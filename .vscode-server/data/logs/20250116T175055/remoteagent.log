@@ -1,0 +1,72 @@
+2025-01-16 17:50:56.027 [info] 
+
+
+
+
+2025-01-16 17:50:56.041 [info] Extension host agent started.
+2025-01-16 17:50:56.119 [info] [<unknown>][166107e2][ManagementConnection] New connection established.
+2025-01-16 17:50:56.124 [info] Started initializing default profile extensions in extensions installation folder. file:///home/mu7s/.vscode-server/extensions
+2025-01-16 17:50:56.127 [info] [<unknown>][0c250002][ExtensionHostConnection] New connection established.
+2025-01-16 17:50:56.167 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/mu7s/.vscode-server/extensions
+2025-01-16 17:50:56.282 [info] [<unknown>][0c250002][ExtensionHostConnection] <1531> Launched Extension Host Process.
+2025-01-16 17:51:12.905 [info] [<unknown>][166107e2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-01-16 17:51:12.978 [info] [<unknown>][0c250002][ExtensionHostConnection] <1531> Extension Host Process exited with code: 0, signal: null.
+2025-01-16 17:51:12.979 [info] Cancelling previous shutdown timeout
+2025-01-16 17:51:12.979 [info] Last EH closed, waiting before shutting down
+2025-01-16 17:51:25.794 [info] [<unknown>][b209a45e][ExtensionHostConnection] New connection established.
+2025-01-16 17:51:25.800 [info] [<unknown>][b209a45e][ExtensionHostConnection] <1714> Launched Extension Host Process.
+2025-01-16 17:51:25.803 [info] [<unknown>][e596018c][ManagementConnection] New connection established.
+2025-01-16 17:51:29.204 [error] CodeExpectedError: Could not find pty 9 on pty host
+    at I.W (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at hs.value (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-16 17:51:29.209 [error] CodeExpectedError: Could not find pty 9 on pty host
+    at I.W (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateIcon (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7772)
+    at N.s.<computed> (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at hs.value (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-01-16 17:53:08.004 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST connect ETIMEDOUT 20.189.173.2:443
+2025-01-16 17:56:12.982 [info] New EH opened, aborting shutdown
+2025-01-16 17:56:12.984 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js:183:1060)
+    at process.emit (node:events:531:35)
+2025-01-16 17:58:27.076 [info] Getting Manifest... ms-python.python
+2025-01-16 17:58:27.260 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/mu7s/.vscode-server/extensions/extensions.json","external":"file:///home/mu7s/.vscode-server/extensions/extensions.json","path":"/home/mu7s/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2025-01-16 17:58:27.672 [info] Getting Manifest... ms-python.vscode-pylance
+2025-01-16 17:58:27.706 [info] Getting Manifest... ms-python.debugpy
+2025-01-16 17:58:27.747 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/mu7s/.vscode-server/extensions/extensions.json","external":"file:///home/mu7s/.vscode-server/extensions/extensions.json","path":"/home/mu7s/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-16 17:58:27.748 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/mu7s/.vscode-server/extensions/extensions.json","external":"file:///home/mu7s/.vscode-server/extensions/extensions.json","path":"/home/mu7s/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-16 17:58:33.740 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 3994ms.
+2025-01-16 17:58:34.069 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 4375ms.
+2025-01-16 17:58:35.022 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 2768ms.
+2025-01-16 17:58:38.371 [info] Extracted extension to file:///home/mu7s/.vscode-server/extensions/ms-python.debugpy-2024.14.0-linux-x64: ms-python.debugpy
+2025-01-16 17:58:38.400 [info] Renamed to /home/mu7s/.vscode-server/extensions/ms-python.debugpy-2024.14.0-linux-x64
+2025-01-16 17:58:48.874 [info] Extracted extension to file:///home/mu7s/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64: ms-python.python
+2025-01-16 17:58:48.904 [info] Renamed to /home/mu7s/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64
+2025-01-16 17:59:25.609 [info] Extracted extension to file:///home/mu7s/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1: ms-python.vscode-pylance
+2025-01-16 17:59:25.676 [info] Renamed to /home/mu7s/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1
+2025-01-16 17:59:25.775 [info] Extension installed successfully: ms-python.debugpy file:///home/mu7s/.vscode-server/extensions/extensions.json
+2025-01-16 17:59:25.775 [info] Extension installed successfully: ms-python.python file:///home/mu7s/.vscode-server/extensions/extensions.json
+2025-01-16 17:59:25.775 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/mu7s/.vscode-server/extensions/extensions.json
+2025-01-16 21:29:57.381 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-16 21:52:48.535 [warning] No ptyHost heartbeat after 6 seconds
+2025-01-17 01:31:41.830 [warning] No ptyHost heartbeat after 6 seconds

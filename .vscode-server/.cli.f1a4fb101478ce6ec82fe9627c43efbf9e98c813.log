@@ -1,0 +1,5 @@
+Listening on 127.0.0.1:45343
+[2025-01-16 17:51:25] info Disposed of connection to running server.
+looking for token ffe68789-edbb-4fbb-9957-5da0e9a77575, got Some("ffe68789-edbb-4fbb-9957-5da0e9a77575")
+[2025-01-16 17:51:25] info Checking /home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/log.txt and /home/mu7s/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/pid.txt for a running server...
+[2025-01-16 17:51:25] info Found running server (pid=1501)

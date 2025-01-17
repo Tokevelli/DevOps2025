@@ -1,0 +1,31 @@
+2025-01-16 17:59:27.164 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-01-16 17:59:27.164 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-01-16 17:59:27.164 [info] Experiment 'pythonTestAdapter' is active
+2025-01-16 17:59:27.164 [warning] Dir "/home/mu7s/.pixi/envs" is not watchable (directory does not exist)
+2025-01-16 17:59:28.551 [info] > pyenv which python
+2025-01-16 17:59:28.551 [info] cwd: .
+2025-01-16 17:59:28.562 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/interpreterInfo.py
+2025-01-16 17:59:28.729 [info] Python interpreter path: /bin/python3
+2025-01-16 17:59:30.397 [info] Starting Pylance language server.
+2025-01-16 18:16:55.473 [info] Running installed packages checker:  {
+  id: '/bin/python3',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '/',
+  path: '/bin/python3',
+  architecture: 3,
+  sysVersion: '3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]',
+  version: {
+    raw: '3.10.12',
+    major: 3,
+    minor: 10,
+    patch: 12,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.12 64-bit',
+  detailedDisplayName: 'Python 3.10.12 64-bit',
+  type: undefined
+} /home/mu7s/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/installed_check.py /home/mu7s/devopsproject/sharespace/requirements.txt
+2025-01-16 18:16:55.475 [info] > /bin/python3 ./.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/installed_check.py ./devopsproject/sharespace/requirements.txt

@@ -1,0 +1,37 @@
+2025-01-16 17:59:29.281 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.2)
+2025-01-16 17:59:30.367 [info] [Info  - 5:59:30 PM] (2333) Server root directory: file:///home/mu7s/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-16 17:59:30.370 [info] [Info  - 5:59:30 PM] (2333) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-16 17:59:30.371 [info] [Info  - 5:59:30 PM] (2333) Starting service instance "mu7s"
+2025-01-16 17:59:30.509 [info] [Info  - 5:59:30 PM] (2333) Setting environmentName for service "mu7s": "3.10.12 (global)"
+2025-01-16 17:59:30.514 [info] [Info  - 5:59:30 PM] (2333) Setting pythonPath for service "mu7s": "/bin/python3"
+2025-01-16 17:59:30.516 [info] [Info  - 5:59:30 PM] (2333) No include entries specified; assuming /home/mu7s
+2025-01-16 17:59:30.517 [info] [Info  - 5:59:30 PM] (2333) Auto-excluding **/node_modules
+2025-01-16 17:59:30.518 [info] [Info  - 5:59:30 PM] (2333) Auto-excluding **/__pycache__
+2025-01-16 17:59:30.518 [info] [Info  - 5:59:30 PM] (2333) Auto-excluding **/.*
+2025-01-16 17:59:30.631 [info] [Info  - 5:59:30 PM] (2333) Assuming Python version 3.10.12.final.0
+2025-01-16 17:59:30.924 [info] [Info  - 5:59:30 PM] (2333) Found 6 source files
+2025-01-16 17:59:32.139 [info] [Info  - 5:59:32 PM] (2333) Background analysis(1) root directory: file:///home/mu7s/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-16 17:59:32.144 [info] [Info  - 5:59:32 PM] (2333) Background analysis(1) started
+2025-01-16 17:59:33.105 [info] [Info  - 5:59:33 PM] (2333) Indexer background runner(2) root directory: file:///home/mu7s/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-16 17:59:33.106 [info] [Info  - 5:59:33 PM] (2333) Indexing(2) started
+2025-01-16 17:59:34.669 [info] [Info  - 5:59:34 PM] (2333) scanned(2) 82 files over 1 exec env
+2025-01-16 17:59:37.524 [info] [Info  - 5:59:37 PM] (2333) [IDX(2)] Long operation: index execution environment file:///home/mu7s (2362ms)
+2025-01-16 17:59:37.549 [info] [Info  - 5:59:37 PM] (2333) [IDX(2)] Long operation: index packages file:///home/mu7s (2391ms)
+2025-01-16 17:59:37.549 [info] [Info  - 5:59:37 PM] (2333) indexed(2) 82 files over 1 exec env
+2025-01-16 17:59:37.614 [info] [Info  - 5:59:37 PM] (2333) Indexing finished(2).
+2025-01-16 18:03:22.742 [info] [Info  - 6:03:22 PM] (2333) Indexer background runner(3) root directory: file:///home/mu7s/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (refresh)
+2025-01-16 18:03:22.746 [info] [Info  - 6:03:22 PM] (2333) Indexing(3) started
+2025-01-16 18:03:23.471 [info] [Info  - 6:03:23 PM] (2333) [BG(1)] Long operation: analyzing: file:///home/mu7s/devopsproject/sharespace/project/app.py (2541ms)
+2025-01-16 18:03:24.462 [info] [Info  - 6:03:24 PM] (2333) scanned(3) 84 files over 1 exec env
+2025-01-16 18:03:25.300 [info] [Info  - 6:03:25 PM] (2333) indexed(3) 84 files over 1 exec env
+2025-01-16 18:03:25.395 [info] [Info  - 6:03:25 PM] (2333) Indexing finished(3).
+2025-01-16 18:17:43.438 [info] [Info  - 6:17:43 PM] (2333) Indexer background runner(4) root directory: file:///home/mu7s/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (refresh)
+2025-01-16 18:17:43.439 [info] [Info  - 6:17:43 PM] (2333) Indexing(4) started
+2025-01-16 18:17:44.413 [info] [Info  - 6:17:44 PM] (2333) scanned(4) 120 files over 1 exec env
+2025-01-16 18:17:46.827 [info] [Info  - 6:17:46 PM] (2333) [BG(1)] Long operation: checking: file:///home/mu7s/devopsproject/sharespace/project/app.py (3679ms)
+2025-01-16 18:17:46.829 [info] [Info  - 6:17:46 PM] (2333) [BG(1)] Long operation: analyzing: file:///home/mu7s/devopsproject/sharespace/project/app.py (3897ms)
+2025-01-16 18:17:47.172 [info] [Info  - 6:17:47 PM] (2333) [IDX(4)] Long operation: index execution environment file:///home/mu7s (2184ms)
+2025-01-16 18:17:47.182 [info] [Info  - 6:17:47 PM] (2333) [IDX(4)] Long operation: index packages file:///home/mu7s (2242ms)
+2025-01-16 18:17:47.183 [info] [Info  - 6:17:47 PM] (2333) indexed(4) 120 files over 1 exec env
+2025-01-16 18:17:47.234 [info] [Info  - 6:17:47 PM] (2333) Indexing finished(4).
+2025-01-16 18:22:33.135 [info] [Info  - 6:22:33 PM] (2333) Found 7 source files
