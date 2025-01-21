@@ -35,3 +35,11 @@
 2025-01-16 18:17:47.183 [info] [Info  - 6:17:47 PM] (2333) indexed(4) 120 files over 1 exec env
 2025-01-16 18:17:47.234 [info] [Info  - 6:17:47 PM] (2333) Indexing finished(4).
 2025-01-16 18:22:33.135 [info] [Info  - 6:22:33 PM] (2333) Found 7 source files
+2025-01-21 17:31:43.015 [info] [Info  - 5:31:42 PM] (2333) Indexer background runner(5) root directory: file:///home/mu7s/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (refresh)
+2025-01-21 17:31:43.020 [info] [Info  - 5:31:43 PM] (2333) Indexing(5) started
+2025-01-21 17:31:45.202 [info] [Info  - 5:31:45 PM] (2333) [IDX(5)] Long operation: scan packages file:///home/mu7s (2143ms)
+2025-01-21 17:31:45.202 [info] [Info  - 5:31:45 PM] (2333) scanned(5) 120 files over 1 exec env
+2025-01-21 17:31:46.098 [info] [Info  - 5:31:46 PM] (2333) indexed(5) 120 files over 1 exec env
+2025-01-21 17:31:46.218 [info] [Info  - 5:31:46 PM] (2333) Indexing finished(5).
+2025-01-21 17:31:47.297 [info] [Info  - 5:31:47 PM] (2333) [BG(1)] Long operation: checking: file:///home/mu7s/devopsproject/sharespace/project/app.py (5281ms)
+2025-01-21 17:31:47.298 [info] [Info  - 5:31:47 PM] (2333) [BG(1)] Long operation: analyzing: file:///home/mu7s/devopsproject/sharespace/project/app.py (5585ms)

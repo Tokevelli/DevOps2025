@@ -44,3 +44,17 @@
 2025-01-17 16:12:55.858 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2025-01-17 16:15:58.314 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2025-01-17 16:17:48.804 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2025-01-17 16:21:16.407 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-17 16:21:36.876 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-01-17 21:21:31.920 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-01-17 21:21:35.544 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-01-18 15:55:11.838 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-01-18 15:55:15.384 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-01-18 15:55:17.586 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-01-18 15:55:20.849 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
